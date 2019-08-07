@@ -7,7 +7,7 @@
 
   name        = CAMLab 
   description = Harvard CAMLab Site Theme 2019.
-  module      = aberdeen
+  module      = hwpi_basetheme
   screenshot  = screenshot.png
 
 ;----------// Stylesheets
