@@ -1,14 +1,15 @@
-; Any line below preceded by semicolon is a comment.  Some optional
-; directives are commented out, but you're welcome to use them by
-; removing the comment.  The directives that are not commented out by
-; default are required for your theme to work correctly.
-
 ;----------// Theme Information
 
-  name        = CAMLab 
-  description = Harvard CAMLab Site Theme 2019.
+  name        = CAMLab
+  description = A college inspired theme for use by departments at Harvard.
   module      = hwpi_basetheme
+  core        = 7.x
+  base theme  = hwpi_basetheme
+  release     = 7.x-3.x
+  engine      = phptemplate
   screenshot  = screenshot.png
+  flavor_name = "adams"
+  plugins[os][flavor] = flavors
 
 ;----------// OpenScholar
 
