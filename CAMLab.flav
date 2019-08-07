@@ -1,4 +1,4 @@
-; Any line below preceeded by semicolon is a comment.  Some optional
+; Any line below preceded by semicolon is a comment.  Some optional
 ; directives are commented out, but you're welcome to use them by
 ; removing the comment.  The directives that are not commented out by
 ; default are required for your theme to work correctly.
@@ -13,7 +13,7 @@
 ;----------// Stylesheets
 
   css[] = css/CAMLab.css
-; css[] = css/CAMLab.layout.css
+  css[] = css/CAMLab.layout.css
 : ie_stylesheets[screen][lt IE 9][] = css/CAMLab-ie.css
 
 ; scripts[] = js/CAMLab.js
